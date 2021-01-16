@@ -4,7 +4,7 @@ C++ program that integrates with the Philips Hue Platform to monitor light state
 ## System Requirements
 - GCC version 4.9 or higher
 - CMake 2.8 or higher
-- Suported for Ubuntu
+- Ubuntu 18.04
 
 ## External Dependencies 
 - CmdParser
