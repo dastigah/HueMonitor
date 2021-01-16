@@ -1,10 +1,10 @@
 # HueMonitor
-C++ program that integrates with the Philips Hue Platform to monitor light state changes
+C++ program that integrates with the Philips Hue Platform to monitor light state changes. The program should print out all of the lights tied to the user (id, name, on state, brightness). On every refresh, the program will check to see if the brightness or on state of each light has changed and record the changes to print out. 
 
 ## System Requirements
 - GCC version 4.9 or higher
 - CMake 2.8 or higher
-- Ubuntu
+- Suported for Ubuntu
 
 ## External Dependencies 
 - CmdParser
@@ -46,5 +46,6 @@ The executable will have the following options below:
 ```
 ./hue_monitor -i localhost -p 8081 -u newdeveloper
 ```
+
 ## Testing
 To test without using real philips hue smart lights, you can use the hue-simulator (https://www.npmjs.com/package/hue-simulator).
