@@ -14,8 +14,11 @@ project (Hue_Integration)
 
 use_cxx(14)
 
-#bring in headers
-include_directories(libs)
+#External Dependency Paths
+include_directories(libs/cpp-httplib-0.7.18)
+include_directories(libs/CmdParser-1.0.0)
+include_directories(libs/json-3.9.1)
+
 include_directories(include)
 
 #wildcard to grab all source files
