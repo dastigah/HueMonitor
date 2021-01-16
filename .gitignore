@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#keep build folder but remove inside content
+build/*
+!build/.gitkeep
